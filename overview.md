@@ -14,14 +14,14 @@ On this data there is a simple chatbot that answers specific questions [video](h
 \
 There is also a website where weekly summaries are published. The summaries are generated based on district and department and annotated with additional information like, funds allocated, category of the order. The goal is to provide rich annotations so that users can sign up for information that is relevant for them. https://mahsummary.orgpedia.in/
 
-2. **Chat friendly extraction of Gazette Data (WIP)**: We are currently processing Gazette data from Maharashtra and Karnataka, both these datasets are predominantly in Marathi and Kannada, respectively. The goal is to process the gazette data and split it in smaller relevant documents so that they can be easily consumed by a specialized chatbot. 
-
-3. **Deep Extraction on Government Orders**: The idea is to convert a government order into a JSON object so that it can be added to a database and queries can be run on the database. I have been focussing on Government Orders that relate to posting and transfers of government officers. The goal here is to extract the information and build an org chart for that department. This was a very hard problem and could only make very little headway.
+2. **Deep Extraction on Government Orders**: The idea is to convert a government order into a JSON object so that it can be added to a database and queries can be run on the database. I have been focussing on Government Orders that relate to posting and transfers of government officers. The goal here is to extract the information and build an org chart for that department. This was a very hard problem and could only make very little headway.
 \
 \
 Currently we have only released the work for Indian Cabinet Ministers data. The site (https://www.orgpedia.in/prime.html) contains the cabinet information and the hierarchy for last 75 years, starting with the first cabinet, and country's first order to the date. 
 \
 The first order can be seen at  https://www.orgpedia.in/en/order-1_Upload_2027.pdf.html. Code/data at https://github.com/orgpedia/cabsec/. This site is available in 22 Indian languages and English.
+
+3. **Chat friendly extraction of Gazette Data (WIP)**: We are currently processing Gazette data from Maharashtra and Karnataka, both these datasets are predominantly in Marathi and Kannada, respectively. The goal is to process the gazette data and split it in smaller relevant documents so that they can be easily consumed by a specialized chatbot. 
 
 ## Help needed for Orgpedia:
 
